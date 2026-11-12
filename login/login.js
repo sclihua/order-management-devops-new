@@ -4,4 +4,6 @@ function login(username, password) {
     } else {
         alert("Invalid username or password");
     }
+    console.log("Login attempt with username:", username);
+    console.log("Login attempt with password:", password);
 }

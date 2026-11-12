@@ -4,4 +4,6 @@ function signup(username, password) {
     } else {
         alert("Please enter a valid username and password");
     }
+    console.log("Signup attempt with username:", username);
+    console.log("Signup attempt with password:", password);
 }
